@@ -21,7 +21,7 @@ def A():
             elif line[0] == wins[line[2]]:
                 total += 6
 
-    print(total)
+    return total
 
 # Q2: X = lose, Y = draw, Z = win
 
@@ -48,7 +48,8 @@ def B():
             else:
                 total += losingPoints[line[0]]
 
-        print(total)
+        return total
 
 
-B()
+print("Day 2=> Answer to part 1: " + str(A()))
+print("Day 2=> Answer to part 2: " + str(B()))
