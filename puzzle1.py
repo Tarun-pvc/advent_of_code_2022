@@ -17,7 +17,7 @@ def A():
                     puzzleMax = puzzleSum
                 puzzleSum = 0
 
-        print(puzzleMax)
+        return puzzleMax
 
 
 def B():
@@ -39,8 +39,8 @@ def B():
         puzzleList.sort()
 
         top3 = (puzzleList[-1], puzzleList[-2], puzzleList[-3])
-        print(sum(top3))
+        return sum(top3)
 
 
-A()
-B()
+print("Day 1 => The answer to part 1: " + str(A())) 
+print("Day 2 => The answer to part 2: " + str(B()))
