@@ -50,5 +50,5 @@ def B():
 
         print(total)
 
-
+A()
 B()
