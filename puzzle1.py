@@ -1,6 +1,6 @@
 # Day 1 of Advent of code!
 
-def A():
+def partA():
 
     with open("inputFiles/q1Input.txt", "r") as file:
         puzzleSum = 0
@@ -20,7 +20,7 @@ def A():
         return puzzleMax
 
 
-def B():
+def partB():
     with open("inputFiles/q1Input.txt", "r") as file:
         puzzleList = []
 
@@ -42,5 +42,5 @@ def B():
         return sum(top3)
 
 
-print("Day 1 => The answer to part 1: " + str(A())) 
-print("Day 2 => The answer to part 2: " + str(B()))
+print("Day 1 => The answer to part 1: " + str(partA()))
+print("Day 2 => The answer to part 2: " + str(partB()))
