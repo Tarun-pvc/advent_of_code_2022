@@ -5,7 +5,7 @@ scores = {'X': 1, 'Y': 2, 'Z': 3}
 difference = ord('A')-ord('X')
 
 
-def A():
+def partA():
     total = 0
     with open("inputFiles/q2Input.txt") as file:
         while True:
@@ -33,7 +33,7 @@ losingPoints = {'A': 3, 'B': 1, 'C': 2}
 tiePoints = {'A': 1, 'B': 2, 'C': 3}
 
 
-def B():
+def partB():
     total = 0
     with open("inputFiles/q2Input.txt") as file:
         while True:
@@ -51,5 +51,5 @@ def B():
         return total
 
 
-print("Day 2=> Answer to part 1: " + str(A()))
-print("Day 2=> Answer to part 2: " + str(B()))
+print("Day 2=> Answer to part 1: " + str(partA()))
+print("Day 2=> Answer to part 2: " + str(partB()))
