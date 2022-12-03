@@ -46,5 +46,10 @@ def partB():
     return (total)
 
 
+<<<<<<< HEAD
 print("The answer to the first part is: " + str(partA()))
 print("The answer to the second part is: " + str(partB()))
+=======
+print("Day 3 => The answer to the first part is: " + str(A()))
+print("Day 3 => The answer to the second part is: " + str(B()))
+>>>>>>> 6808fb2cf37134ccf68d456d20589e1e46c6f038
