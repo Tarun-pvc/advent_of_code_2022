@@ -5,7 +5,7 @@ def value(character):
         return ord(character)-(ord('a')-1)
 
 
-def A():
+def partA():
     total = 0
     with open("inputFiles/q3Input.txt") as file:
         while True:
@@ -26,7 +26,7 @@ def A():
     return (total)
 
 
-def B():
+def partB():
     total = 0
     with open("inputFiles/q3Input.txt") as file:
         inputs = file.readlines()
@@ -46,5 +46,5 @@ def B():
     return (total)
 
 
-print("The answer to the first part is: " + str(A()))
-print("The answer to the second part is: " + str(B()))
+print("The answer to the first part is: " + str(partA()))
+print("The answer to the second part is: " + str(partB()))
