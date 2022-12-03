@@ -23,7 +23,7 @@ def A():
                     total += value(char)
                     flag = 0
 
-    print(total)
+    return (total)
 
 
 def B():
@@ -43,8 +43,8 @@ def B():
                         flag = 1
 
             i += 3
-    print(total)
+    return (total)
 
 
-A()
-B()
+print("The answer to the first part is: " + str(A()))
+print("The answer to the second part is: " + str(B()))
