@@ -46,5 +46,5 @@ def B():
     return (total)
 
 
-print("The answer to the first part is: " + str(A()))
-print("The answer to the second part is: " + str(B()))
+print("Day 3 => The answer to the first part is: " + str(A()))
+print("Day 3 => The answer to the second part is: " + str(B()))
