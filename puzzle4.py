@@ -16,7 +16,7 @@ def partA():
             elif pairs[3] >= pairs[1] and pairs[2] <= pairs[0]:
                 total += 1
 
-    print(total)
+    return (total)
 
 
 def partB():
@@ -38,7 +38,8 @@ def partB():
             elif pairs[3] >= pairs[0] and pairs[3] <= pairs[1]:
                 total += 1
 
-    print(total)
+    return (total)
 
 
-partB()
+print("Day 4 => The answer to the first part is: " + str(partA()))
+print("Day 4 => The answer to the second part is: " + str(partB()))
