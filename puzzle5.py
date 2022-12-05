@@ -31,7 +31,7 @@ def partA():
     for stack in stacks:
         stringout += stack[-1]
 
-    print(stringout)
+    return stringout
 
 
 def partB():
@@ -56,4 +56,8 @@ def partB():
     for stack in stacks:
         stringout += stack[-1]
 
-    print(stringout)
+    return stringout
+
+
+print("Day 5 => The answer to the first part is: " + str(partA()))
+print("Day 6 => The answer to the second part is: " + str(partB()))
