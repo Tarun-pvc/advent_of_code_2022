@@ -34,25 +34,26 @@ def partA():
     print(stringout)
 
 
-with open("inputFiles/q5Input.txt") as file:
-    while True:
-        line = file.readline()
-        if not line:
-            break
-        strings = line.split(' ')
-        iterations = int(strings[1])
-        source = int(strings[3])
-        destination = int(strings[5])
-        tomove = []
+def partB():
+    with open("inputFiles/q5Input.txt") as file:
+        while True:
+            line = file.readline()
+            if not line:
+                break
+            strings = line.split(' ')
+            iterations = int(strings[1])
+            source = int(strings[3])
+            destination = int(strings[5])
+            tomove = []
 
-        for i in range(iterations):
-            tomove.append(stacks[source-1].pop())
+            for i in range(iterations):
+                tomove.append(stacks[source-1].pop())
 
-        for i in range(iterations):
-            stacks[destination-1].append(tomove.pop())
+            for i in range(iterations):
+                stacks[destination-1].append(tomove.pop())
 
-stringout = ""
-for stack in stacks:
-    stringout += stack[-1]
+    stringout = ""
+    for stack in stacks:
+        stringout += stack[-1]
 
-print(stringout)
+    print(stringout)
