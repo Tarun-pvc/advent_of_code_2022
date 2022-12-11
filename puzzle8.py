@@ -59,9 +59,6 @@ for i in range(1, gridSize-1):
 
 total += gridSize*2 + (gridSize-2)*2
 
-# print(gridSize)
-# print(total)
-
 # End of part one
 
 # part two:
@@ -129,4 +126,5 @@ for i in range(gridSize):
         if scenicScore(i, j) > max:
             max = scenicScore(i, j)
 
-print(max)
+print(" Day 8 => The answer to the first part is: " + total)
+print(" Day 8 => The answer to the second part is: " + max)
